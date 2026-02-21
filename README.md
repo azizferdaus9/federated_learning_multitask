@@ -29,17 +29,17 @@ The system trains a **shared encoder** with **task-specific heads** (classificat
 ```bash
 python -m venv .venv
 
-Activate:
+##Activate:
 
-Windows (PowerShell)
+##Windows (PowerShell)
 
 .venv\Scripts\Activate.ps1
 
-macOS/Linux
+##macOS/Linux
 
 source .venv/bin/activate
 
-Install packages:
+##Install packages:
 
 pip install -U pip
 pip install -r requirements.txt
